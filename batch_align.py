@@ -28,8 +28,8 @@ translation_suffix = sys.argv[4]
 
 options = {}
 options['factored'] = False
-options['filter'] = None
-options['filterthreshold'] = 90
+options['filter'] = 'sentences'
+options['bleuthreshold'] = 0.6
 options['filterlang'] = None
 options['targettosrc'] = []
 options['eval'] = None
